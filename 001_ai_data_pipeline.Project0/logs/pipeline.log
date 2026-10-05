@@ -1,0 +1,26 @@
+2026-04-14 17:30:40,329 - INFO - Starting full pipeline...
+2026-04-14 17:30:40,329 - INFO - Running script: data_pipeline.py
+2026-04-14 17:30:40,665 - INFO - Sending request to API...
+2026-04-14 17:30:41,137 - INFO - API response received.
+2026-04-14 17:30:41,138 - INFO - Fetched 100 records from API.
+2026-04-14 17:30:41,138 - INFO - Saving data to CSV at: c:\ai_data_pipeline\src\..\data\raw\posts_data.csv
+2026-04-14 17:30:41,138 - INFO - Data saved successfully!
+2026-04-14 17:30:41,169 - INFO - Finished script: data_pipeline.py
+2026-04-14 17:30:41,170 - INFO - Running script: clean_data.py
+2026-04-14 17:30:42,111 - INFO - Finished script: clean_data.py
+2026-04-14 17:30:42,111 - INFO - Running script: feature_engineering.py
+2026-04-14 17:30:42,906 - INFO - Finished script: feature_engineering.py
+2026-04-14 17:30:42,906 - INFO - Pipeline completed successfully!
+2026-04-14 17:58:35,429 - INFO - Starting full pipeline...
+2026-04-14 17:58:35,429 - INFO - Running script: data_pipeline.py
+2026-04-14 17:58:35,777 - INFO - Sending request to API...
+2026-04-14 17:58:36,212 - INFO - API response received.
+2026-04-14 17:58:36,212 - INFO - Fetched 100 records from API.
+2026-04-14 17:58:36,212 - INFO - Saving data to CSV at: c:\ai_data_pipeline\src\..\data\raw\posts_data.csv
+2026-04-14 17:58:36,212 - INFO - Data saved successfully!
+2026-04-14 17:58:36,245 - INFO - Finished script: data_pipeline.py
+2026-04-14 17:58:36,247 - INFO - Running script: clean_data.py
+2026-04-14 17:58:37,154 - INFO - Finished script: clean_data.py
+2026-04-14 17:58:37,155 - INFO - Running script: feature_engineering.py
+2026-04-14 17:58:37,934 - INFO - Finished script: feature_engineering.py
+2026-04-14 17:58:37,934 - INFO - Pipeline completed successfully!

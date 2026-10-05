@@ -1,0 +1,1 @@
+C:\Users\GF124\Desktop\Projects\ Dumpster\rust-perceptron.Project1\target\debug\rust-perceptron.exe: C:\Users\GF124\Desktop\Projects\ Dumpster\rust-perceptron.Project1\src\main.rs C:\Users\GF124\Desktop\Projects\ Dumpster\rust-perceptron.Project1\src\perceptron.rs
