@@ -1,0 +1,1 @@
+C:\Users\GF124\Desktop\Projects\ Dumpster\003_rust-mlp-xor.Project2\target\debug\rust-mlp-xor.exe: C:\Users\GF124\Desktop\Projects\ Dumpster\003_rust-mlp-xor.Project2\src\main.rs C:\Users\GF124\Desktop\Projects\ Dumpster\003_rust-mlp-xor.Project2\src\mlp.rs
