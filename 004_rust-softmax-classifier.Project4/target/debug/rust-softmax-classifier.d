@@ -1,0 +1,1 @@
+C:\Users\GF124\Desktop\rust-softmax-classifier\target\debug\rust-softmax-classifier.exe: C:\Users\GF124\Desktop\rust-softmax-classifier\src\classifier.rs C:\Users\GF124\Desktop\rust-softmax-classifier\src\main.rs
