@@ -10,7 +10,7 @@ Whether you cloned this repo, tested the models, or just audited the code:
   Leave your technical critique in our [Code Review & Feedback Discussions](https://github.com/GoldenFist06/ml-systems-playground/discussions).
 
 * 💡 **Have feature requests or system ideas?**  
-  Share your proposals in our [System Ideas & Feature Proposals Discussions](https://github.com/GoldenFist06/ml-systems-playground/discussions).
+  Share your proposals in our [Ideas & Suggestions](https://github.com/GoldenFist06/ml-systems-playground/discussions).
 
 * 🐛 **Experiencing compilation errors or breaking issues?**  
   Feel free to open an [Issue](https://github.com/GoldenFist06/ml-systems-playground/issues).
