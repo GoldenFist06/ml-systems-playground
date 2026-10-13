@@ -1,0 +1,15 @@
+[package]
+name = "ml_core_engine"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "ml_core_engine"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.29.0"
+wgpu = "0.19"    
+pollster = "0.3" 
+bytemuck = { version = "1.14", features = ["derive"] }
+futures-intrusive = "0.5"
