@@ -68,7 +68,7 @@ Run the end-to-end training pipeline utilizing GPU-accelerated forward and backw
 python src/network.py
 
 Operation,Hardware,Execution Time
-Matrix Multiplication (500×500),CPU Baseline,~2.500s
+Matrix Multiplication (500×500),CPU Baseline,~2.204005s
 Matrix Multiplication (500×500),GPU (wgpu Compute),~0.654s
 "1,000 ReLU Iterations",GPU (Persistent Context),~3.219s
 
