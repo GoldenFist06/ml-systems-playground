@@ -8,7 +8,7 @@ Designed to bypass the traditional overheads of deep learning interpreters, this
 
 ## ⚠️ Note on Project Lineage
 
-> This repository is the heavily optimized, patched, and performance-upgraded evolution of the legacy `006_ml_core_engine_GPU-Performance.Project5` project, featuring architectural redesigns like Kernel Fusion and a Persistent GPU Context.
+> This repository is the heavily optimized, patched, and performance-upgraded evolution of the legacy `006_ml_core_engine_GPU_v1_Project5` project, featuring architectural redesigns like Kernel Fusion and a Persistent GPU Context.
 
 ---
 
