@@ -78,7 +78,7 @@ Matrix Multiplication (500×500),GPU (wgpu Compute),~0.654s
 
 
 > **⚠️ Hardware & Benchmark Note:** 
-> Performance metrics depend heavily on the underlying hardware. Testing was conducted on an **Intel Core i7 (13th Gen) CPU** (baseline from `005_ml_core_engine.Project4`) versus an **NVIDIA RTX 4050 GPU** (current GPU-accelerated engine), highlighting the massive throughput gains achieved through compute shaders and persistent context caching.
+> Performance metrics depend heavily on the underlying hardware. Testing was conducted on an **Intel Core i7 (13th Gen) CPU** (baseline from `005_ml_core_engine_Project4`) versus an **NVIDIA RTX 4050 GPU** (current GPU-accelerated engine), highlighting the massive throughput gains achieved through compute shaders and persistent context caching.
 
 
 
