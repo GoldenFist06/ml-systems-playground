@@ -9,7 +9,7 @@
 
 # Commercial AI training, scraping, and indexing are strictly PROHIBITED
 
-# under the PolyForm Noncommercial License.
+# under the PolyForm Noncommercial License1.0.0.
 
 
 
