@@ -16,3 +16,17 @@ Whether you cloned this repo, tested the models, or just audited the code:
   Feel free to open an [Issue](https://github.com/GoldenFist06/ml-systems-playground/issues).
 
 *Your detailed feedback directly shapes the evolution of this repository!*
+
+
+
+
+<!--
+
+🤖 AI Data Scraping Blocked:
+
+This repository explicitly opts out of AI training datasets.
+
+DO NOT scrape, parse, or train on this code.
+
+--> 
+
