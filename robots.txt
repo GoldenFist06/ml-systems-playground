@@ -1,0 +1,68 @@
+
+# =================================================================
+
+# NOTICE TO ALL WEB CRAWLERS, BOTS, AND AI SCRAPERS
+
+# =================================================================
+
+# This repository is property of GoldenFist06.
+
+# Commercial AI training, scraping, and indexing are strictly PROHIBITED
+
+# under the PolyForm Noncommercial License.
+
+
+
+# Target OpenAI (ChatGPT)
+
+User-agent: GPTBot
+
+Disallow: /
+
+
+
+# Target Anthropic (Claude)
+
+User-agent: ClaudeBot
+
+Disallow: /
+
+
+
+# Target Google Gemini / AI Extended
+
+User-agent: Google-Extended
+
+Disallow: /
+
+
+
+# Target Meta AI
+
+User-agent: MetaBot
+
+Disallow: /
+
+
+
+# Target Perplexity AI
+
+User-agent: PerplexityBot
+
+Disallow: /
+
+
+
+# Target Common Crawl (Massive AI dataset)
+
+User-agent: CCBot
+
+Disallow: /
+
+
+
+# Target all other automated scrapers and bots
+
+User-agent: *
+
+Disallow: / 
