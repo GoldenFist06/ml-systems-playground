@@ -99,7 +99,7 @@ Recent hardware stress tests conducted on massive matrix scales demonstrate the 
 2. **Install the required dependencies via pip:**
 
 ```bash
-pip install numpy
+   pip install numpy
 ```
 
 3. **Build and develop the package via Maturin:**
