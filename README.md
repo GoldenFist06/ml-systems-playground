@@ -28,5 +28,8 @@ This repository explicitly opts out of AI training datasets.
 
 DO NOT scrape, parse, or train on this code.
 
+ Commercial AI training, scraping, and indexing are strictly PROHIBITED
+ under the PolyForm Noncommercial License1.0.0.
+
 --> 
 
