@@ -87,7 +87,7 @@ Recent hardware stress tests conducted on massive matrix scales demonstrate the 
 - Python 3.8+ (with virtual environment `.venv`)
 - Rust Toolchain (`Cargo` and `Maturin`)
 - Compatible GPU with Vulkan/Compute capabilities
-
+- Requires NumPy
 ### Installation & Execution
 
 1. **Activate your virtual environment:**
@@ -96,33 +96,39 @@ Recent hardware stress tests conducted on massive matrix scales demonstrate the 
    (.venv) .\.venv\Scripts\Activate.ps1
    ```
 
-2. **Build and develop the package via Maturin:**
+2. **Install the required dependencies via pip:**
+
+```bash
+pip install numpy
+```
+
+3. **Build and develop the package via Maturin:**
    ```bash
    maturin develop --release
    ```
 
-3. **Run the performance benchmarks:**
+4. **Run the performance benchmarks:**
    ```bash
    python src/benchmark.py
    ```
 
-4. **Run the massive hardware stress test:**
+5. **Run the massive hardware stress test:**
    ```bash
    python src/stress_test.py
    ```
 
-5. **Run the massive concurrency revenge audit:**
+6. **Run the massive concurrency revenge audit:**
    ```bash
    python src/engine_massive_revenge_audit.py
    ```
 
 
-6. **Run the full black-box audit suite:**
+7. **Run the full black-box audit suite:**
    ```bash
    python src/engine_audit.py
    ```
 
-7. **Train the Neural Network (MLP):**
+8. **Train the Neural Network (MLP):**
    ```bash
    python src/network.py
    ```
