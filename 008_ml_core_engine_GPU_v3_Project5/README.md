@@ -8,7 +8,7 @@ Designed to bypass the traditional overheads of deep learning interpreters, this
 
 ## ⚠️ Note on Project Lineage
 
-> This repository is the heavily optimized, patched, and performance-upgraded evolution of the legacy `007_ml_core_engine_GPU_v2_Project5` project, featuring architectural redesigns like Kernel Fusion, a Persistent GPU Context, and robust multi-threaded stress hardening.
+> This project is the heavily optimized, patched, and performance-upgraded evolution of the legacy `007_ml_core_engine_GPU_v2_Project5` project, featuring architectural redesigns like Kernel Fusion, a Persistent GPU Context, and robust multi-threaded stress hardening.
 
 ---
 
