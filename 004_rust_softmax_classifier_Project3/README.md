@@ -16,4 +16,4 @@ Run the training loop and evaluation:
 ```bash
 cargo run
 
-Results After training for 5,000 epochs, the classifier successfully concentrates probabilities ( ≈ 99% )  on the correct target class for each input sample.
+ResultsAfter training for 5,000 epochs, the classifier successfully concentrates probabilities ( ≈ 99% )  on the correct target class for each input sample.
