@@ -1,43 +1,35 @@
-📦 AI Data Pipeline (ETL Project)
-This project is a complete data pipeline built with Python.
-It demonstrates a full ETL workflow including:
+# 📦 AI Data Pipeline (ETL Project)
 
-Fetching data from an API
+A complete and straightforward ETL (Extract, Transform, Load) data pipeline built with Python.
 
-Cleaning and preprocessing
+## 🌟 Features
+- Fetching data from APIs
+- Data cleaning and preprocessing
+- Feature engineering
+- Exploratory Data Analysis (EDA)
+- Custom logging system and error handling
+- Automated pipeline runner
 
-Feature engineering
+---
 
-Exploratory Data Analysis (EDA)
+## 📁 Project Structure
 
-Logging system
+```text
+├── data/
+│   ├── raw/
+│   └── processed/
+├── logs/
+│   └── pipeline.log
+└── src/
+    ├── clean_data.py
+    ├── data_pipeline.py
+    ├── eda.py
+    ├── feature_engineering.py
+    ├── logging_config.py
+    └── pipeline.py
 
-Error handling
 
-Automated pipeline runner
-
-🚀 Run the pipeline
-Code
-python src/pipeline.py
-📁 Project Structure
-Code
-src/
-    data_pipeline.py
-    clean_data.py
-    feature_engineering.py
-    eda.py
-    pipeline.py
-    logging_config.py
-
-data/
-    raw/
-    processed/
-
-logs/
-    pipeline.log
-
-🛠 Technologies Used:
-
+🛠️ Technologies Used
 Python
 
 Pandas
@@ -45,3 +37,8 @@ Pandas
 Requests
 
 Logging
+
+🚀 How to Run
+Execute the pipeline runner from the root directory:
+
+python src/pipeline.py
