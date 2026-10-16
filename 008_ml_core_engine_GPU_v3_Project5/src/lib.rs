@@ -73,7 +73,7 @@ impl PyMatrix {
 
     #[staticmethod]
     fn from_list(rows: usize, cols: usize, data: Vec<f32>) -> PyResult<Self> {
-        // رفض الأبعاد الصفرية برمجياً لتجاوز تنبيهات الـ invalid_inputs الصامتة
+    
         if rows == 0 || cols == 0 {
             return Err(PyValueError::new_err("Matrix dimensions cannot be zero"));
         }
