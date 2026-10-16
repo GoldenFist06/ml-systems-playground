@@ -53,9 +53,9 @@ bare-metal performance directly to Python as a lightweight, fully customizable I
 It is released under the **PolyForm Noncommercial License 1.0.0** to remain 100% free for researchers, students, and independent developers. 
 
 **If this core engine powers your inference, accelerates your workflow, or helps your research—please do not let it pass in silence.
-Leaving a Star is the only way to let me know that the engine is working perfectly and running at peak efficiency on your machine! 
+Leaving a Star is the only way to let me know that the engine is working perfectly and running at peak efficiency on your machine!** 
 
-Your feedback helps ensure the continuous development of this high-performance open-source projects.**
+**Your feedback helps ensure the continuous development of this high-performance open-source projects.**
 
 ⭐ **[Click here to leave a Star and confirm it works perfectly!](https://github.com/GoldenFist06/ml-systems-playground)**
 
