@@ -15,7 +15,7 @@ impl Perceptron {
         }
     }
 
-    /// دالة التنبؤ (Forward Pass / Predict)
+    /// (Forward Pass / Predict)
     pub fn predict(&self, inputs: &[f32]) -> u8 {
         let mut sum = self.bias;
         for i in 0..inputs.len() {
