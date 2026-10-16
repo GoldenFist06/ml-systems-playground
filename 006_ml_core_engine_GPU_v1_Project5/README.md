@@ -27,7 +27,7 @@ Designed for raw speed and efficiency, this engine bypasses traditional CPU bott
 ## 📁 Project Structure
 
 ```text
-006_ml_core_engine_GPU-Performance/
+006_ml_core_engine_GPU_v1_Project5/
 ├── src/
 │   ├── lib.rs          # Rust core engine, GPU context singleton, and PyO3 bindings
 │   ├── network.py      # Neural network architecture (DenseLayer, SimpleMLP, Xavier init)
