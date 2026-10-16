@@ -47,7 +47,7 @@ Whether you cloned this repo, tested the models, or just audited the code:
 
 ### ⚠️ A Note to the Community & Developers 
 
-This engine is built entirely from scratch using **Rust (`wgpu`, `WGSL`, `bytemuck`, `PyO3`, `pollster`, ``)** to deliver raw, 
+This engine is built entirely from scratch using **Rust (`wgpu`, `WGSL`, `bytemuck`, `PyO3`, `pollster`, `futures-intrusive`)** to deliver raw, 
 bare-metal performance directly to Python as a lightweight, fully customizable Inference Engine. 
 
 It is released under the **PolyForm Noncommercial License 1.0.0** to remain 100% free for researchers, students, and independent developers. 
