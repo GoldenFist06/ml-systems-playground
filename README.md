@@ -34,4 +34,30 @@ Whether you cloned this repo, tested the models, or just audited the code:
 *Your detailed feedback directly shapes the evolution of this repository!*
 
 
+---
+
+## 🚀 ML Core Engine GPU v3 is out now!
+
+### 📊 Performance Benchmark (RTX 4050 Laptop GPU):
+* **2000x2000 Matrix:** 175.01 GFLOPS
+* **4000x4000 Matrix:** 157.03 GFLOPS
+* **Memory Reliability:** 0.00MB Leaks under 32 Threads workers stress-test.
+
+---
+
+### ⚠️ A Note to the Community & Developers 
+
+This engine is built entirely from scratch using **Rust (`wgpu`, `WGSL`, `bytemuck`, `PyO3`)** to deliver raw, 
+bare-metal performance directly to Python as a lightweight, fully customizable Inference Engine. 
+
+It is released under the **PolyForm Noncommercial License 1.0.0** to remain 100% free for researchers, students, and independent developers. 
+
+**If this core engine powers your inference, accelerates your workflow, or helps your research—please do not let it pass in silence.
+Leaving a Star is the only way to let me know that the engine is working perfectly and running at peak efficiency on your machine! 
+Your feedback helps ensure the continuous development of this high-performance open-source projects.**
+
+⭐ **[Click here to leave a Star and confirm it works perfectly!](https://github.com/GoldenFist06/ml-systems-playground)**
+
+---
+
 
