@@ -175,4 +175,7 @@ Recent extreme hardware stress tests conducted on massive matrix scales demonstr
 This project is licensed under the PolyForm Noncommercial License 1.0.0. See the LICENSE file for details.
 Commercial use, modification, or distribution for commercial purposes is strictly prohibited without explicit written permission.
 
+🚀 GPU Device Active and Initialized via Persistent Context!
+⭐ Enjoying ml_core_engine? Support the project on GitHub: https://github.com/GoldenFist06/ml-systems-playground
+
 Built with precision, raw systems engineering, and GPU acceleration. 🦀🔥
