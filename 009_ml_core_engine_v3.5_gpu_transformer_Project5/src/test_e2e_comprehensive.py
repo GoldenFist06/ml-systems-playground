@@ -51,7 +51,7 @@ def run_comprehensive_test():
     print("✨ RoPE Result:", res_rope.to_list())
     assert len(res_rope.to_list()) == 8, "Error in RoPE output"
 
-    # 7. Scaled Dot-Product Attention Test (The Crown Jewel)
+    # 7. Scaled Dot-Product Attention Test
     print("\n[7/7] Testing Scaled Dot-Product Attention (gpu_attention)...")
     query = ml_core_engine.PyMatrix.from_list(2, 2, [1.0, 0.0, 0.0, 1.0])
     key = ml_core_engine.PyMatrix.from_list(2, 2, [1.0, 0.0, 0.0, 1.0])
