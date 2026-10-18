@@ -36,12 +36,12 @@ Whether you cloned this repo, tested the models, or just audited the code:
 
 ---
 
-## 🚀 ML Core Engine v3.5 GPU Transformer is out now!
+## 🚀 ML Core Engine v3.6 GPU Transformer is out now!
 
 ### 📊 Performance Benchmark (RTX 4050 Laptop GPU):
-- **2000x2000 Matrix:** 252.19 GFLOPS
-- **4000x4000 Matrix:** 309.20 GFLOPS
-- **6000x6000 Matrix (Peak Saturation):** 318.56 GFLOPS
+- **2000x2000 Matrix:** 254.30 GFLOPS
+- **4000x4000 Matrix:** 292.02 GFLOPS
+- **6000x6000 Matrix (Peak Saturation):** 321.77 GFLOPS
 - **Memory Reliability:** 0.00MB Leaks under 32 Threads concurrency stress-test.
 - **New Core Primitives:** Full GPU-resident Transformer stack (`RMSNorm`, `SwiGLU`, `Softmax`, `RoPE`, `Attention`).
 
@@ -62,5 +62,3 @@ Leaving a Star is the only way to let me know that the engine is working perfect
 ⭐ **[Click here to leave a Star and confirm it works perfectly!](https://github.com/GoldenFist06/ml-systems-playground)**
 
 ---
-
-
