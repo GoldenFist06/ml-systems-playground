@@ -32,33 +32,3 @@ Whether you cloned this repo, tested the models, or just audited the code:
   Feel free to open an [Issue](https://github.com/GoldenFist06/ml-systems-playground/issues).
 
 *Your detailed feedback directly shapes the evolution of this repository!*
-
-
----
-
-## 🚀 ML Core Engine v3.6 GPU Transformer is out now!
-
-### 📊 Performance Benchmark (RTX 4050 Laptop GPU):
-- **2000x2000 Matrix:** 254.30 GFLOPS
-- **4000x4000 Matrix:** 292.02 GFLOPS
-- **6000x6000 Matrix (Peak Saturation):** 321.77 GFLOPS
-- **Memory Reliability:** 0.00MB Leaks under 32 Threads concurrency stress-test.
-- **New Core Primitives:** Full GPU-resident Transformer stack (`RMSNorm`, `SwiGLU`, `Softmax`, `RoPE`, `Attention`).
-
----
-
-### ⚠️ A Note to the Community & Developers 
-
-This engine is built entirely from scratch using **Rust (`wgpu`, `WGSL`, `bytemuck`, `PyO3`, `pollster`, `futures-intrusive`)** to deliver raw, 
-bare-metal performance directly to Python as a lightweight, fully customizable Inference Engine. 
-
-It is released under the **PolyForm Noncommercial License 1.0.0** to remain 100% free for researchers, students, and independent developers. 
-
-**If this core engine powers your inference, accelerates your workflow, or helps your research—please do not let it pass in silence.
-Leaving a Star is the only way to let me know that the engine is working perfectly and running at peak efficiency on your machine!** 
-
-**Your feedback helps ensure the continuous development of these high-performance open-source projects.**
-
-⭐ **[Click here to leave a Star and confirm it works perfectly!](https://github.com/GoldenFist06/ml-systems-playground)**
-
----
