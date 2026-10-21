@@ -267,7 +267,7 @@ impl PyMatrix {
         Ok(PyMatrix { rows: m, cols: n, data: result_data })
     }
 
-    // نواة GPU مخصصة لحساب مشتقة الـ ReLU مباشرة وتجنب التنقل بين CPU و GPU
+   
     fn gpu_relu_backward(&self, output_vals: &PyMatrix) -> PyResult<PyMatrix> {
         if self.rows != output_vals.rows || self.cols != output_vals.cols {
             return Err(PyValueError::new_err("Dimensions mismatch for gpu_relu_backward"));
