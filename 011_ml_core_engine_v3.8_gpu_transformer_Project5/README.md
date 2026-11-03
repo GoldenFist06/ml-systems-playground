@@ -77,7 +77,7 @@ Recent extreme hardware stress tests conducted on massive matrix scales demonstr
 ## 📂 Project Structure
 
 ```
-009_ml_core_engine_v3.8_gpu_transformer_Project5/
+011_ml_core_engine_v3.8_gpu_transformer_Project5/
 │
 ├── src/
 │   ├── lib.rs                       # Rust core engine, WGSL compute shaders, transformer primitives, FFI bindings
