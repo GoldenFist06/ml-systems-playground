@@ -210,7 +210,7 @@ def t_transformer_primitives(res, a):
     v = mat(4, 4, rng.standard_normal((4, 4)).astype(np.float32)).to_gpu()
     got_attn = q.gpu_attention(k, v)
     
-    # 🛠️ التصحيح الهندسي السليم هنا باستدعاء الأقواس () لجلب القيم الحقيقية للدالة بدلاً من مرجع الكائن!
+   
     if got_attn.rows() != 4 or got_attn.cols() != 4:
         res.fail("gpu_attention dimensions invalid")
     log("  all transformer primitives (RMSNorm, SwiGLU, Softmax, RoPE, Attention) verified successfully")
