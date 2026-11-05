@@ -123,10 +123,10 @@ Recent extreme hardware stress tests conducted on massive matrix scales demonstr
    pip install numpy psutil
    ```
 
-3. **Build and develop the package via Maturin:**
+3. **Install the core:**
 
    ```bash
-   maturin develop --release
+   python -m pip install --force-reinstall "src/ml_core_engine-0.1.0-cp312-cp312-win_amd64.whl"
    ```
 
 4. **Run the end-to-end comprehensive smoke test:**
