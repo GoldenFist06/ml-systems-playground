@@ -179,7 +179,7 @@ Recent extreme hardware stress tests conducted on consumer-grade laptop hardware
 
 11. **Run auxiliary and remaining kernels verification test:**
 
-   ```bash
+    ```bash
     python src/test_remaining_kernels.py
     ```
 
