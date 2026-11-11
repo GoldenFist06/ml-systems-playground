@@ -93,7 +93,6 @@ Comprehensive hardware stress tests conducted on consumer-grade laptop hardware 
 │   ├── test_profile_raw_compute_saturation_flops.py      # Peak instantaneous raw compute saturation profiler (up to 11.4 TFLOPS)
 │   ├── test_continuous_workload_bandwidth_flops.py       # Sustained thermal & memory-bus workload stress test
 │   ├── stress_test.py                                    # Multi-dimension volumetric GEMM stress test
-│   ├── test_gflops.py                                    # Persistent buffer maximum intensity GFLOPS benchmark
 │   ├── test_engine.py                                    # Long-context (4000x4096) attention & bus transfer benchmark
 │   ├── test_flash_softmax.py                             # Isolated Fused Attention + Online Softmax latency profiler
 │   ├── test_generation_tps.py                            # Single-user (Batch=1) 24-layer 1.25B model latency benchmark
