@@ -210,6 +210,6 @@ Commercial use, modification, or distribution for commercial purposes is strictl
 
 🚀 GPU Device Active and Initialized via Persistent VRAM Compute Engine (v4.0 Active)!
 
-⭐ Enjoying ml_core_engine? Support the project on GitHub: https://github.com
+⭐ Enjoying ml_core_engine? Support the project on GitHub:  https://github.com/GoldenFist06/ml-systems-playground
 
 Built with precision, raw systems engineering, and GPU acceleration. 🦀🔥
