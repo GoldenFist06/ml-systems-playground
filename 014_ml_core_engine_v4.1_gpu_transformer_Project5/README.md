@@ -84,7 +84,8 @@ Comprehensive hardware stress tests conducted on consumer-grade hardware (**ASUS
 │   ├── test_flash_softmax.py                             # Isolated Fused Attention + Online Softmax latency profiler
 │   ├── test_generation_tps.py                            # Single-user (Batch=1) 24-layer 1.25B model latency benchmark
 │   ├── benchmark_multi_user_throughput.py                # Multi-user (Batch=32) 24-layer 1.25B model throughput benchmark
-│   └── benchmark_prefill_context.py                      # Parallel context prefill ingestion benchmark (2048 tokens)
+│   ├── benchmark_prefill_context.py                      # Parallel context prefill ingestion benchmark (2048 tokens)
+│   └── verify_mathematical_integrity.py                  # mathematical precision verification
 │
 ├── Cargo.toml                                            # Rust crate configuration & release hardening profile
 ├── pyproject.toml                                        # Maturin python build configuration
@@ -194,6 +195,12 @@ Comprehensive hardware stress tests conducted on consumer-grade hardware (**ASUS
 
     ```bash
     python src/test_ai_runtime_simulation.py
+    ```
+
+16. **Run the  mathematical precision audit:** 
+
+    ```bash
+    python src/verify_mathematical_integrity.py
     ```
 
 ## 📄 License
